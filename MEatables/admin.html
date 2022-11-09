@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME Admin </title>
+    <link rel="stylesheet" href="./CSS/admin.css">
+</head>
+<body>
+  
+    <h1 id="s_admin">Admin</h1>
+  
+
+
+<h1 id="add_data">Add Data</h1>
+<form action="" id="addProduct" onsubmit="addProduct()">
+    <input type="url" id="s_image" placeholder="Image">
+    <input type="text" id="s_name" placeholder="Name">
+    <input type="url" id="s_logo" placeholder="Logo">
+    <input type="number"  id="s_price" placeholder="Price">
+    <input type="number" id="s_offerprice" placeholder="OfferPrice">
+    <input type="text" id="s_define" placeholder="veg/non-veg">
+    
+    <input type="text" id="s_description" placeholder="Description">
+    <select name="" id="category">
+      <option value="Chicken Buckets">Chiken Buckets</option>
+      <option value="New Launch">New Launch</option>
+      <option value="Biryani Buckets">Biryani Buckets</option>
+      <option value="Box Meals">Box Meals</option>
+      <option value="Burgers">Burgers</option>
+      <option value="Snacks">Snacks</option>
+      <option value="Stay Home Special">Stay Home Special</option>
+      <option value="Beverages">Beverages</option>
+    </select>
+    <input type="submit" value="Add Product" id="s_btn">
+
+  </form>
+
+  <h1 id="manage_data">Manage Orders & Payments</h1>
+  <div id="admin_data">
+    <div id="total_sales">Total Sales :- <span id="total_sales_span"></span></div>
+    <div id="total_orders">Total Orders :- <span id="total_orders_span"></span></div>
+  </div>
+ 
+
+ <h1>Manage Order <button id="order_btn">Order's</button></h1>
+
+ <h1>Manage Payment<button id="payment_btn">Payment's</button></h1>
+</body>
+</html>
+
+<script src="./scripts/admin.js"></script>

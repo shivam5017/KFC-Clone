@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./CSS/signup.css">
+</head>
+<body>
+    <nav id="s_nav">
+        <div class="s_nav_div">
+            <h1>MEatables</h1>
+        </div>
+    </nav>
+    <form action="" id="s_signup_form" onsubmit="s_signup()">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/3f270a75878285.5c5981682cadb.jpg">
+        <h1 id="s_logo">CREATE AN ACCOUNT</h1>
+        <input type="text" placeholder="First Name" id="s_firstname">
+        <div class="err_firstname"></div>
+        <input type="text" placeholder="Last Name" id="s_lastname">
+        <div class="err_lastname"></div>
+        <input type="email" placeholder="Email" id="s_email">
+        <div class="err_email"></div>
+        <input type="password" placeholder="Password" id="s_pass">
+        <div class="err_pass"></div>
+        <p id="form_text_1">By Signup into the application or proceeding as a guest, you agree to our <u>Privacy Policy</u> and <u>Terms of Use.</u></p>
+        <input type="submit" value="Create Account" id="s_signup_btn">
+        <p id="form_text_2">Already a member ?<a href="login.html"> Login In</a><p>
+    </form>
+</body>
+</html>
+
+<script src="./scripts/signup.js"></script>

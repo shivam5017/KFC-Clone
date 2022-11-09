@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./CSS/login.css">
+</head>
+<body>
+    <nav id="s_nav">
+        <div class="s_nav_div">
+            <h1>MEatables</h1>
+        </div>
+    </nav>
+
+    <form action="" id="s_login_form" onsubmit="s_login()">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/3f270a75878285.5c5981682cadb.jpg">
+        <h1 id="s_logo">Login to ME</h1>
+        <input type="email" placeholder="Email" id="s_email">
+        <div class="err_email"></div>
+        <input type="password" placeholder="Password" id="s_pass">
+        <div class="err_pass"></div>
+        <p id="form_text_1">By logging into the application or proceeding as a guest, you agree to our <u>Privacy Policy</u> and <u>Terms of Use.</u></p>
+        <input type="submit" value="Login" id="s_login_btn">
+        <p id="form_text_2">Don't have an account?<a href="signup.html">Join Now</a><p>
+    </form>
+</body>
+</html>
+
+<script src="./scripts/login.js"></script>
