@@ -7,101 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="nav.css">
     <title>Document</title>
-    <style>
-        *{
-            padding: 0;
-            margin: 0;
-          font-family: sans-serif;
-        }
-        #RPhome{
-            background-color: #202124;
-            color: white;
-            height: 60px;
-            font-size: large;
-            margin-top: 100px;
-        }
-        #RPtop{
-            text-align: center;
-        }
-        #RPtop p{
-           padding-top: 20px;
-           font-size: medium;
-        }
-        #RPi {
-            width: 5%;
-            margin: auto;
-        }
-        #RPi img{
-            width: 80px;
-            height: 40px;
-        }
-        #RPp1{
-            width: 38%;
-            margin: auto;
-        }
-        #RPp1 p{
-            text-align: center;
-            font-size: 22px;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
-        #RPp2{
-            width: 35%;
-            height: 50px;
-            background-color: #e3e3e3;
-            display: flex;
-            justify-content: space-between;
-            margin: auto;
-            border-radius: 35px;
-            text-align: center;
-            align-items: center;
-            margin-top: 40px;
-            margin-bottom: 50px;
-        }
-        #RPpred{
-            width: 35%;
-            padding: 12px;
-            background-color: #e4002b;
-            border-radius: 35px;
-        }
-        #RPpred a{
-            text-decoration: none;
-            color: white;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            
-        }
-        .RPdivc1{
-            width: 30%;
-            text-align: center;
-        }
-        .RPdivc1 a{
-            text-decoration: none;
-            color: rgb(73, 73, 73);
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
-        #RPslider1{
-            width: 100%;
-            height: 300px;
-            
-        }
-        #RPbiloslider{
-            margin-top: 123px;
-            width: 100%;
-            height: 130px;
-            background-color: #f8f7f5;
-            border: 1px solid blue;
-        }
-        #RPbiloslider img{
-            width: 80px;
-            height: 45px;
-            margin-left: 100px;
-        }
-        #RPwel p{
-           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-           margin-left: 110px;
-           font-size: 40px;
-          
-        }
-    </style>
+    
 </head>
 <body>
 
@@ -111,8 +17,14 @@
 
     <div id="RPhome"> <!-- index start here-->
        <div id="RPtop">
+        <i class="fa fa-map-marker" ></i>
         <p>Delivery at: 243, Rishi Vihar Indore Madhya Pradesh India 452013</p>
+        <i class="fa fa-clock-o" ></i>
+        <p> ASAP </p>
+        <button id="RP_open_popup_btn"> Change </button>
+        
        </div> 
+      
     </div>
     <div id="RPi">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYIAAACCCAMAAAB8Uz8PAAAATlBMVEX////uLSnuIh30goD+9PTtHhn71dXtFg/uJiLyY2H2m5n70tHvQT7uKibtEgnxX1ztAAD0enj3n53/+fj5v7394+L1jIr0fnz3q6rvOjcdq5ADAAABbUlEQVR4nO3d200DURBEQWOzmOdiA8aQf6IE0PM1GlliVZVA36sTwOx2LedDx/Xjszf3dW3tnS+9uct373s/vbme075jeb/vzT2vrb3TS2/u4bc1d7z25nqOdx2PT90ES2tv7SZ4fevM7Q+9uR4JChIkCYIEgyQoSJAkCBIMkqAgQZIgSDBIgoIESYIgwSAJChIkCYIEgyQoSJAkCBIMkqAgQZIgSDBIgoIESYIgwSAJChIkCYIEgyQoSJAkCBIMkqAgQZIgSDBIgoIESYIgwSAJChIkCYIEgyQoSJAkCBIMkqAgQZIgSDBIgoIESYIgwSAJChIkCYIEgyQoSJAkCBIMkqAgQZIgSDBIgoIESYIgwSAJChIkCYIEgyQoSJAkCBIMkqAgQZIgSDBIgoIESYIgwSAJChIkCYIEgyQoSJA2nWBtvXHjCZabHts9La2DwP/m3nHvezdNAAAAAAAAAAAAAAAAAAAAAAAAbMgffpRXjrG4IMAAAAAASUVORK5CYII=" alt="#">
@@ -120,6 +32,28 @@
     <div id="RPp1">
         <p>SELECT YOUR ORDER TYPE TO START</p>
     </div>
+    
+        <div class="RP_popup_overlay"></div>
+        <div class="RP_popup"> 
+           <h1>CHANGE YOUR ORDER</h1>
+           <div id="RPxyz">
+            <label for=""> ORDER TYPE </label>
+            <input type="text" placeholder="Enter Ordertype">
+            <br>
+            <label for=""> YOUR LOCATION </label>
+            <input type="text" placeholder="Enter Your LOCATION" id="RPlocation">
+            <br>
+             <label for="" id="RPshedule"> SHEDULE FOR YOUR ORDER </label>  
+             <br>
+             <label> Date </label>
+             <input type="date">
+             <br>
+             <label>Time</label>
+             <input type="time"> 
+        </div>
+           <div class="RP_popup_close_btn"> &times; </div>    
+        </div>
+    
     <div id="RPp2">
         <div id="RPpred">
             <a href="#"> DELIVERY  </a>
@@ -133,7 +67,7 @@
     </div> <!-- End of RPp2-->
 
     <div id="RPslider1">
-
+       <img src="https://images.ctfassets.net/wtodlh47qxpt/4wzmNLWjqVZZl95Fcf48r2/90bd1294b970f903545d8f0f5278b28a/Allu_Arjun_Combo_Meal__1440x396px.jpg?w=1536&fit=fill&fm=webp" alt="error"> 
     </div>
     <div id="RPbiloslider">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYIAAACCCAMAAAB8Uz8PAAAATlBMVEX////uLSnuIh30goD+9PTtHhn71dXtFg/uJiLyY2H2m5n70tHvQT7uKibtEgnxX1ztAAD0enj3n53/+fj5v7394+L1jIr0fnz3q6rvOjcdq5ADAAABbUlEQVR4nO3d200DURBEQWOzmOdiA8aQf6IE0PM1GlliVZVA36sTwOx2LedDx/Xjszf3dW3tnS+9uct373s/vbme075jeb/vzT2vrb3TS2/u4bc1d7z25nqOdx2PT90ES2tv7SZ4fevM7Q+9uR4JChIkCYIEgyQoSJAkCBIMkqAgQZIgSDBIgoIESYIgwSAJChIkCYIEgyQoSJAkCBIMkqAgQZIgSDBIgoIESYIgwSAJChIkCYIEgyQoSJAkCBIMkqAgQZIgSDBIgoIESYIgwSAJChIkCYIEgyQoSJAkCBIMkqAgQZIgSDBIgoIESYIgwSAJChIkCYIEgyQoSJAkCBIMkqAgQZIgSDBIgoIESYIgwSAJChIkCYIEgyQoSJAkCBIMkqAgQZIgSDBIgoIESYIgwSAJChIkCYIEgyQoSJA2nWBtvXHjCZabHts9La2DwP/m3nHvezdNAAAAAAAAAAAAAAAAAAAAAAAAbMgffpRXjrG4IMAAAAAASUVORK5CYII=" alt="#">
@@ -141,6 +75,59 @@
             <p> WELCOME TO KFC! </p>
         </div>
     </div>
+    <div id="RPmidindex">
+        <div id="RPmidindextop">
+            <div id="RPmidindextopc1">
+                <p> BROWSE CATEGORIES</p>
+            </div>
+            <div id="RPmidindextopc2">
+                
+            </div>    
+        </div> <!--RPmidindextop End -->
+        <div id="RPmidindextopmid">
+          <div class="RPmidindextopmidgrid">
+            <a href="#"> <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT86.jpg?ver=21.88" alt="error"> </a>
+           <a href="#"> <p>  CHICKEN BUCKETS </p> </a> 
+          </div>
+
+          <div class="RPmidindextopmidgrid">
+            <a href="#"> <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT200.jpg?ver=21.88" alt="error"> </a>
+           <a href="#"> <p> NEW LAUNCH </p> </a> 
+          </div>
+
+          <div class="RPmidindextopmidgrid">
+            <a href="#"> <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT190.jpg?ver=21.88" alt="error"> </a>
+           <a href="#"> <p>  BIRYANI BUCKETS </p> </a> 
+          </div>
+
+          <div class="RPmidindextopmidgrid">
+            <a href="#"> <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT158.jpg?ver=21.88" alt="error"> </a>
+           <a href="#"> <p> BOX MEALS </p> </a> 
+          </div>
+
+          <div class="RPmidindextopmidgrid">
+            <a href="#"> <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT99.jpg?ver=21.88" alt="error"> </a>
+           <a href="#"> <p>  BURGERS </p> </a> 
+          </div>
+
+          <div class="RPmidindextopmidgrid">
+            <a href="#"> <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT178.jpg?ver=21.88" alt="error"> </a>
+           <a href="#"> <p> STAY HOME SPECIALS </p> </a> 
+          </div>
+
+          <div class="RPmidindextopmidgrid">
+            <a href="#"> <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT89.jpg?ver=21.88" alt="error"> </a>
+           <a href="#"> <p>  SNACKS </p> </a> 
+          </div>
+
+          <div id="RPmidindextopmidgrid2">
+            <a href="#"> <img src="https://online.kfc.co.in/static/media/finger_lickin.fc21c805.svg" alt="error"> </a>
+           <a href="#"> <p>  View All Menu <i class="fa fa-long-arrow-right "  aria-hidden="true"></i> </p>   </a> 
+          </div>
+          
+
+        </div> <!-- RPmidindextopmid End-->
+    </div> <!-- RPmidindex End-->
 </body>
 </html>
 
