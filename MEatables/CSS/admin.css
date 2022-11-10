@@ -1,18 +1,43 @@
+body{
+  margin-top: -20px;
+  background-color:darkgray;
+}
 
-
+#web_name{
+    text-align: center;
+}
+#display_name{
+    margin: auto;
+    margin-right: 50px;
+}
+#logout{
+    margin-right: 5rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+}
 #s_admin{
     text-align: center;
     background-color: aqua;
-    margin-top:-8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: -7px;
     margin-right: -7px;
-    height: 50px;
-   
+    
+    display: flex;
 }
+
+#s_admin_logout{
+    border: 1px solid red;
+    display: flex;
+}
+
 
 #s_admin img{
     width: 100%;
     max-height: 80px;
+    
 }
 
 #addProduct{
@@ -36,7 +61,7 @@
    height: 50px;
    border-radius: 10px;
    background-color: ghostwhite;
-   
+   font-style: italic;
 }
 
 input::placeholder{
@@ -49,6 +74,7 @@ input::placeholder{
     height: 60px;
     border-radius: 10px;
     font-size: 20px;
+    font-style: italic;
 }
 #s_btn{
     border:  none;
@@ -62,15 +88,44 @@ input::placeholder{
     gap: 40rem;
     font-size: 30px;
     margin-top: 20px;
+    font-style: italic;
 }
 
 #add_data{
     text-align: center;
+    font-style: italic;
 }
 #manage_data{
     text-align: center;
+    font-style: italic;
 }
 
 #s_admin_login{
+   font-size: 20px;
+}
+
+.manage_btn{
+    font-style: italic;
+}
+
+#order_btn{
+    width: 80px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    height: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    background-color: red;
+    font-size: 20px;
+}
+
+#payment_btn{
+    width: 10rem;
+   border: 1px solid grey;
+   border-radius: 10px;
+   height: 30px;
+   cursor: pointer;
+   margin-left: 20px;
+   background-color: red;
    font-size: 20px;
 }

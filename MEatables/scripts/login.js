@@ -1,5 +1,5 @@
 
-let loginarr=[
+let logindata=[
 ]
 const form=document.getElementById("s_login_form")
 
@@ -68,5 +68,6 @@ let = s_login=()=>{
     }
    }, 1500);
 
-  
+   logindata.push(selected)
+    localStorage.setItem("login_details",JSON.stringify(logindata))
  }
