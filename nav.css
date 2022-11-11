@@ -16,8 +16,9 @@
     z-index: 1;
 }
 #RPleftnav img{
-    width: 80px;
-    height: 70px;
+    width: 120px;
+    height: 80px;
+    border: none;
 }
 #RPleftnav{
     width: 30%;
@@ -71,4 +72,12 @@
     color: black;
     font-size: medium;
     font-weight: bold;
+}
+#RPleftnav img{
+    position: relative;
+}
+#RPcartvalue{
+  position: absolute;
+  left: 84.3%;
+  padding-top: 2px;
 }

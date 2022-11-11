@@ -41,3 +41,16 @@ openpopupBtn.addEventListener("click",function(){
 closepopupBtn.addEventListener("click", function(){
    document.body.classList.remove("RP_popup-active")
 });
+
+document.getElementById("RPsubmitbtn").addEventListener("click",function (){
+    RPsubmit_change();
+})
+let RPsubmit_change =() =>{
+
+    console.log("working")
+  let data = document.getElementById("RPlocation").value;
+
+  let newlocation = document.getElementById("RPnewlocation");
+   newlocation.innerText = null;
+  newlocation.innerText = data;
+}
