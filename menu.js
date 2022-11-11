@@ -402,7 +402,7 @@ let  products =[
             offerprice:'₹740.00',
             serves: ' Serves 2',
             discripation:'Large portions of Biryani rice with 2 pc Hot & Crispy, 2 Gravies, 4 Strips & Pepsi PET',
-            category:'snacks'
+            category:'stay home special'
         },
         {
             id:37,
@@ -413,7 +413,7 @@ let  products =[
             offerprice:'₹450.48',
             serves: ' Serves 2',
             discripation:'Enjoy 2pc Hot & Crispy Chicken, 4 wings , 2 dips & a chilled Pepsi Black',
-            category:'snacks'
+            category:'stay home special'
         },
         {
             id:38,
@@ -424,7 +424,7 @@ let  products =[
             offerprice:'₹344.76',
             serves: ' Serves 2',
             discripation:'Favorite combo of Classic Zinger Burger, Medium Fries & a chilled Pepsi Black',
-            category:'snacks'
+            category:'stay home special'
         },
         {
             id:39,
@@ -435,7 +435,7 @@ let  products =[
             offerprice:'₹450.48',
             serves: ' Serves 2',
             discripation:'Favorite combo of Classic Zinger Burger, Medium Fries & a chilled Pepsi Black',
-            category:'snacks'
+            category:'stay home special'
         },
         // bevrages
         {
@@ -473,11 +473,13 @@ let  products =[
         },
 ];
 
-let chickenBucket= (data)=>{
+
+
+let append= (data)=>{
     let cont = document.getElementById('ninja_product');
     cont.innerHTML = null;
     data.forEach((ele) =>{
-        if(ele.category == 'chicken buckets'){
+        
             let div = document.createElement('div');
 
             div.setAttribute("class","ninja_card")
@@ -520,14 +522,141 @@ let chickenBucket= (data)=>{
            
             let cartBtn = document.createElement('button');
             cartBtn.setAttribute('class','ninja_cart-btn');
-            cartBtn.innerText='Add to Cart'
+            cartBtn.innerText='Add to Cart';
+            cartBtn.onclick= ()=>{
+                addToCart(ele)
+            }
 
         
             div.append(Image,name,serve_div,price_div,discripation,cartBtn);
             cont.append(div)
             
-        }
+        
     })
 }
 
-chickenBucket(products)
+let chickenBucket= (data) =>{
+    let newData= data.filter((ele) =>{
+         return ele.category == 'chicken buckets'
+     })
+     
+     append(newData);
+     let value = document.getElementById('ninja_bucket').innerText;
+     let title = document.getElementById('ninja_header');
+     title.innerText = value;
+
+ }
+ chickenBucket(products)
+
+let envoke_bucket= () =>{
+    chickenBucket(products);
+    let value = document.getElementById('ninja_bucket').innerText;
+    let title = document.getElementById('ninja_header');
+    title.innerText = value;
+}
+
+let newlaunch = (data) =>{
+    let newData= data.filter((ele) =>{
+        return ele.category == 'new launch'
+    })
+    
+    append(newData);
+
+    let value = document.getElementById('ninja_newlaunch').innerText;
+    let title = document.getElementById('ninja_header');
+    title.innerText = value;
+
+}
+
+
+
+let biryanibuckets = (data) =>{
+    let newData= data.filter((ele) =>{
+        return ele.category == 'biryani buckets'
+    })
+    
+    append(newData);
+
+    let value = document.getElementById('ninja_biryani').innerText;
+    let title = document.getElementById('ninja_header');
+    title.innerText = value;
+
+}
+
+let boxmeals = (data) =>{
+    let newData= data.filter((ele) =>{
+        return ele.category == 'box meals'
+    })
+    
+    append(newData);
+
+    let value = document.getElementById('ninja_boxmeals').innerText;
+    let title = document.getElementById('ninja_header');
+    title.innerText = value;
+
+}
+
+let burgers =  (data) =>{
+    let newData= data.filter((ele) =>{
+        return ele.category == 'burgers'
+    })
+    
+    append(newData);
+
+    let value = document.getElementById('ninja_burgers').innerText;
+    let title = document.getElementById('ninja_header');
+    title.innerText = value;
+
+}
+
+let snacks = (data) =>{
+    let newData= data.filter((ele) =>{
+        return ele.category == 'snacks'
+    })
+    
+    append(newData);
+
+    let value = document.getElementById('ninja_snacks').innerText;
+    let title = document.getElementById('ninja_header');
+    title.innerText = value;
+}
+
+let stayhomespecial = (data) =>{
+    let newData= data.filter((ele) =>{
+        return ele.category == 'stay home special'
+    })
+    
+    append(newData);
+
+    let value = document.getElementById('ninja_homespecial').innerText;
+    let title = document.getElementById('ninja_header');
+    title.innerText = value;
+}
+
+let beverages = (data) =>{
+    let newData= data.filter((ele) =>{
+        return ele.category == 'beverages'
+    })
+    
+    append(newData);
+
+    let value = document.getElementById('ninja_bevrages').innerText;
+    let title = document.getElementById('ninja_header');
+    title.innerText = value;
+}
+
+let cartData = JSON.parse(localStorage.getItem("cart")) || []
+
+function addToCart(ele){
+    for(i=0;i<cartData.length;i++){
+      if(cartData[i].id===ele.id){
+        alert ("Prodct already exist in cart");
+        return;
+      }
+    }
+
+
+    cartData.push(ele)
+    localStorage.setItem("cart",JSON.stringify(cartData));
+    alert("Product Successfully added in cart");
+  };
