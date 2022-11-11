@@ -36,3 +36,31 @@
     margin-top: -40%;
     border: none;
 }
+.ProDiv{
+    width: 80%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: auto;
+}
+.ProDiv img{
+    width: 100%;
+
+}
+.ProDiv button{
+    width: 40%;
+    height: 4vh;
+}
+.PriceDiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.PriceDiv img{
+    width: 10%;
+}
