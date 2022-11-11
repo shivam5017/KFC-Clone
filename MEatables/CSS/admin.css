@@ -1,6 +1,6 @@
 body{
   margin-top: -20px;
-  background-color:darkgray;
+  /* background-color:darkgray; */
 }
 
 #web_name{
@@ -9,18 +9,19 @@ body{
 #display_name{
     margin: auto;
     margin-right: 50px;
+    color: white;
 }
 #logout{
     margin-right: 5rem;
     width: 5rem;
     height: 2rem;
     border-radius: 10px;
-    border: none;
-    background-color: red;
+    border: 1px solid black;
+    background-color: white;
 }
 #s_admin{
     text-align: center;
-    background-color: aqua;
+    background-color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: -7px;
     margin-right: -7px;

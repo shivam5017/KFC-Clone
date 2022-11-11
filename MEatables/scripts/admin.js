@@ -58,7 +58,9 @@ function ordermanage(){
 
    console.log("click")
   if(display.innerHTML=="" || display.innerHTML==undefined){
+     
     alert("Please Login First")
+    // display.innerHTML="SIGN IN"
   }else{
     window.location.href="orders.html"
   }
