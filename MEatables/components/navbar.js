@@ -8,9 +8,9 @@ function navbar (){
    
    <div id="RPrightnav">
        <i class="fa fa-user-circle-o" id="RPfa1"></i>
-       <a href="login.html"> <p class="RPpad" id="RPaus">Sign In</p> </a>
+       <a href="login.html"> <p class="RPpad" id="RPaus">Sign In</p>  </a>
        <p class="RPpad" id="RPline"> | </p>
-       <p id="RPcartvalue">0</p>
+       <p id="RPcartvalue"></p>
        <img src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg" alt="error">
        <p id="RPcartvalue">0</p>
        </div>`

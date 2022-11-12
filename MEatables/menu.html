@@ -169,6 +169,19 @@
             word-spacing: 0px;
         }
 
+        #check_cart{
+            margin-left: 50px;
+            width: 50%;
+            background-color: black;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        #check_cart a{
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
     </style>
 </head>
 <body>
@@ -176,18 +189,19 @@
         <div id="ninja_menu-bar">
             <div id="ninja-line-logo"><img src="https://online.kfc.co.in/static/media/Stripes_Small_OffersIcon.87fc6256.svg" alt=""></div>
             <div class="ninja-bold">KFC MENU</div>
-            <div onclick="envoke_bucket(products)" class="ninja-menu" id="ninja_bucket">CHICKEN BUCKETS</div>
-            <div onclick="newlaunch(products)" class="ninja-menu" id="ninja_newlaunch">NEW LAUNCH</div>
-            <div onclick="biryanibuckets(products)" class="ninja-menu" id="ninja_biryani">BIRYANI BUCKETS</div>
-            <div onclick="boxmeals(products)" class="ninja-menu" id="ninja_boxmeals">BOX MEALS</div>
-            <div onclick="burgers(products)" class="ninja-menu" id="ninja_burgers">BURGERS</div>
-            <div onclick="snacks(products)" class="ninja-menu" id="ninja_snacks">SNACKS</div>
-            <div onclick="stayhomespecial(products)" class="ninja-menu" id="ninja_homespecial">STAY HOME SPECIALS</div>
-            <div onclick="beverages(products)" class="ninja-menu" id="ninja_bevrages">BEVERAGES</div>
+            <div onclick="envoke_bucket(products,products2)" class="ninja-menu" id="ninja_bucket">CHICKEN BUCKETS</div>
+            <div onclick="newlaunch(products,products2)" class="ninja-menu" id="ninja_newlaunch">NEW LAUNCH</div>
+            <div onclick="biryanibuckets(products,products2)" class="ninja-menu" id="ninja_biryani">BIRYANI BUCKETS</div>
+            <div onclick="boxmeals(products,products2)" class="ninja-menu" id="ninja_boxmeals">BOX MEALS</div>
+            <div onclick="burgers(products,products2)" class="ninja-menu" id="ninja_burgers">BURGERS</div>
+            <div onclick="snacks(products,products2)" class="ninja-menu" id="ninja_snacks">SNACKS</div>
+            <div onclick="stayhomespecial(products,products2)" class="ninja-menu" id="ninja_homespecial">STAY HOME SPECIALS</div>
+            <div onclick="beverages(products,products2)" class="ninja-menu" id="ninja_bevrages">BEVERAGES</div>
         </div>
         <div id="ninja_product-container">
             <div id="ninja_search-bar">
                 <input type="text" placeholder="Search our Menu" id="ninja_input-ser">
+              <button id="check_cart"><a href="cart.html">Check Your Cart</a></button>
             </div>
             <div id="ninja_header"></div>
             <div id="ninja_product">

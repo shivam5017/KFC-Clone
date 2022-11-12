@@ -4,8 +4,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/md/D-PR00002153.jpg?ver=21.87',
         name:'Peri Peri 10 Strips with Dynamite',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹639.05',
-        offerprice:'₹639.05',
+        price:639,
+        offerprice:639,
         serves:'Serves 2-3',
         discripation:'10 Spicy Peri Peri chicken strips & our Dynamite Spicy Mayo Sauce Bottle',
         category:'chicken buckets'
@@ -16,8 +16,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/md/D-PR00000892.jpg?ver=21.87',
         name:'Bucket for Two',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹744.00',
-        offerprice:'₹759.00',
+        price:744,
+        offerprice:759,
         serves:'Serves 2-3',
         discripation:'Flat Rs. 115 off on combo of 2pc Hot & Crispy, 2 pc Smoky Red Chicken & Large Popcorn',
         category:'chicken buckets'
@@ -28,8 +28,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002154.jpg?ver=21.87',
         name:'Peri Peri 10 Strips with Nashville',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹639.05',
-        offerprice:'₹639.05',
+        price:639,
+        offerprice:639,
         serves:'Serves 2-3',
         discripation:'10 Spicy Peri Peri chicken strips & our Nashville Hot Sauce Bottle',
         category:'chicken buckets'
@@ -40,8 +40,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002155.jpg?ver=21.87',
         name:'Peri Peri 10 Leg pc & 4 Dips',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹639.05',
-        offerprice:'₹639.05',
+        price:639,
+        offerprice:639,
         serves: 'Serves 3-4',
         discripation:'10 Spicy Peri Peri chicken strips & our Dynamite Spicy Mayo Sauce Bottle',
         category:'chicken buckets'
@@ -52,8 +52,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002156.jpg?ver=21.87',
         name:'Peri Peri 5 Leg Pc Meal',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹628.57',
-        offerprice:'₹628.57',
+        price:628,
+        offerprice:628,
         serves: 'Serves 3-4',
         discripation:'10 Spicy Peri Peri chicken strips & our Dynamite Spicy Mayo Sauce Bottle',
         category:'chicken buckets'
@@ -63,8 +63,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002157.jpg?ver=21.87',
         name:'Peri Peri 5 Leg Pc & 2 Dips',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹512.24',
-        offerprice:'₹512.24',
+        price:512,
+        offerprice:512,
         serves: 'Serves 2',
         discripation:'5 Spicy Peri Peri Leg Pieces, paired with 2 delicous dips',
         category:'chicken buckets'
@@ -75,8 +75,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002153.jpg?ver=21.87',
         name:'Peri Peri 10 Strips with Dynamite',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹639.05',
-        offerprice:'₹639.05',
+        price:639,
+        offerprice:639,
         serves: 'Serves 2-3',
         discripation:'10 Spicy Peri Peri chicken strips & our Dynamite Spicy Mayo Sauce Bottle',
         category:'new launch'
@@ -86,8 +86,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002164.jpg?ver=21.87',
         name:'Solo Feast',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹399.05',
-        offerprice:'₹399.05',
+        price:399,
+        offerprice:399,
         serves: 'Serves 2-3',
         discripation:'Treat yourself with 1 Hot & Crispy, 2 Strips, 2 Wings, 1 Buttered Bun, 1 Dip & Pe₹399.05',
         category:'new launch'
@@ -97,8 +97,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002165.jpg?ver=21.87',
         name:'Strips & Rice Combo',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹359.06',
-        offerprice:'₹359.06',
+        price:359,
+        offerprice:359,
         serves: 'Serves 1-2',
         discripation:'4 strips, 1 Dips, flavorful Rice & Gravy at a deal price',
         category:'new launch'
@@ -108,8 +108,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002172.jpg?ver=21.87',
         name:'Friendship Bucket with Dynamite Sauce',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹879.05',
-        offerprice:'₹879.05',
+        price:879,
+        offerprice:879,
         serves: 'Serves 3-4',
         discripation:'3pc Hot & Crispy, 3 Wings, 3 Strips, Large Popcorn & our new Dynamite Mayo Bottle',
         category:'new launch'
@@ -119,8 +119,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002156.jpg?ver=21.87',
         name:'Peri Peri 5 Leg Pc Meal',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹628.57',
-        offerprice:'₹628.57',
+        price:628,
+        offerprice:628,
         serves: 'Serves 3-4',
         discripation:'5 Spicy Peri Peri Leg Pieces, 2 Dips, 1 Med Fries & a Pepsi PET',
         category:'new launch'
@@ -130,8 +130,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002123.jpg?ver=21.87',
         name:'Mega Feast',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹399.04',
-        offerprice:'₹399.04',
+        price:399,
+        offerprice:399,
         serves: ' Serves 2-3',
         discripation:'Feast up with 2 Hot & Crispy, 2 Smoky Red Chicken, 1 Bun, 1 Rice & gravy, Med Fries & Pepsi PET',
         category:'new launch'
@@ -141,8 +141,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002094.jpg?ver=21.87',
         name:'6pc Hot & Crispy with Nashville Sauce',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹779.05',
-        offerprice:'₹779.05',
+        price:779,
+        offerprice:779,
         serves: ' Serves 3',
         discripation:'6pc Hot & Crispy Chicken paired with our new Nashville Hot Pepper Sauce Bottle',
         category:'new launch'
@@ -153,8 +153,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002166.jpg?ver=21.87',
         name:'Classic Biryani Combo',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹740.00',
-        offerprice:'₹740.00',
+        price:740,
+        offerprice:740,
         serves: ' Serves 2-3',
         discripation:'Large portions of Biryani rice with 2 pc Hot & Crispy, 2 Gravies, 4 Strips & Pepsi PET',
         category:'biryani buckets'
@@ -164,8 +164,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002017.jpg?ver=21.88',
         name:'Smoky Grilled Biryani Combo',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹740.00',
-        offerprice:'₹740.00',
+        price:740,
+        offerprice:740,
         serves: ' Serves 2-3',
         discripation:'Large portions of Biryani rice with 2 pc Smoky Red, 2 Gravies, Med Popcorn & Pepsi PET',
         category:'biryani buckets'
@@ -175,8 +175,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002052.jpg?ver=21.88',
         name:'Popcorn Biryani Combo',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹690.48',
-        offerprice:'₹690.48',
+        price:690,
+        offerprice:690,
         serves: ' Serves 2-3',
         discripation:'Large portions of Biryani & Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & Pepsi PET',
         category:'biryani buckets'
@@ -186,8 +186,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K626.jpg?ver=21.88',
         name:'Classic Chicken Biryani Bucket (Large',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹475.24',
-        offerprice:'₹475.24',
+        price:475,
+        offerprice:475,
         serves: ' Serves 2',
         discripation:'Hyderabadi style Biryani rice served with 1 pc Hot & Crispy & Spicy Gravy',
         category:'biryani buckets'
@@ -197,8 +197,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K624.jpg?ver=21.88',
         name:'Popcorn Chicken Biryani Bucket',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹229.52',
-        offerprice:'₹229.52',
+        price:229,
+        offerprice:229,
         serves: ' Serves 2',
         discripation:'Hyderabadi style Biryani rice served with Popcorn & Spicy Gravy',
         category:'biryani buckets'
@@ -208,8 +208,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K622.jpg?ver=21.88',
         name:'Veg Biryani Bucket',
         logo:'https://online.kfc.co.in/static/media/Veg_dot_Icon.d1a3902d.svg',
-        price:'₹188.57',
-        offerprice:'₹188.57',
+        price:188,
+        offerprice:188,
         serves: ' Serves 2',
         discripation:'Hyderabadi style Biryani rice served with Veg Patty & Spicy Gravy',
         category:'biryani buckets'
@@ -220,8 +220,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002167.jpg?ver=21.88',
         name:'All Chicken Box',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹189.52',
-        offerprice:'₹189.52',
+        price:189,
+        offerprice:189,
         discripation:'A Box with your favorites! Get 1 pc Hot & Crispy, 2 Hot Wings & 1 Chicken Strip at a deal price',
         category:'box meals'
     },
@@ -230,8 +230,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001003.jpg?ver=21.88',
         name:'Zinger Tandoori Box',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹313.33',
-        offerprice:'₹313.33',
+        price:313,
+        offerprice:313,
         discripation:'A deal for the Tandoori lovers : Get 1 Tandoori Zinger, 2 Hot Wings, 1 Veg Patty & Pepsi',
         category:'box meals'
     },
@@ -240,8 +240,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001039.jpg?ver=21.88',
         name:'Popcorn Biryani Box',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹328.57',
-        offerprice:'₹328.57',
+        price:328,
+        offerprice:328,
         discripation:'Biryani lovers unite : Get 1 Popcorn Biryani Bucket with gravy, 2 Hot Wings & Pepsi',
         category:'box meals'
     },
@@ -250,8 +250,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001004.jpg?ver=21.88',
         name:'Veg Zinger Box',
         logo:'https://online.kfc.co.in/static/media/Veg_dot_Icon.d1a3902d.svg',
-        price:'₹313.33',
-        offerprice:'₹313.33',
+        price:313,
+        offerprice:313,
         discripation:'A deal for the Veg Zinger lovers : Get 1 Veg Zinger, 2 Veg Patties & a Pepsi',
         category:'box meals'
     },
@@ -262,8 +262,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001025.jpg?ver=21.88',
         name:'2 Chicken Krisper Burgers',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹228.57',
-        offerprice:'₹228.57',
+        price:228,
+        offerprice:228,
         discripation:'2 delicious chicken value burgers - at a deal price',
         category:'burgers'
     },
@@ -272,8 +272,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001022.jpg?ver=21.88',
         name:'2 Veg Krisper Burgers',
         logo:'https://online.kfc.co.in/static/media/Veg_dot_Icon.d1a3902d.svg',
-        price:'₹158.10',
-        offerprice:'₹158.10',
+        price:158,
+        offerprice:158,
         discripation:'2 delicious veg value burgers - at a deal price',
         category:'burgers'
     },
@@ -282,8 +282,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001027.jpg?ver=21.88',
         name:'Chicken & Krispers Combo',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹519.05',
-        offerprice:'₹519.05',
+        price:519,
+        offerprice:519,
         discripation:'Deal combo of 2 chicken value burgers, 2 pc Hot & Crispy, 2 dips & a chilled Pepsi PET',
         category:'burgers'
     },
@@ -292,8 +292,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K540.jpg?ver=21.88',
         name:'Tandoori Zinger Burger',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹199.05',
-        offerprice:'₹199.05',
+        price:199,
+        offerprice:199,
         discripation:'Chicken zinger with a delicious tandoori sauce',
         category:'burgers'
     },
@@ -302,8 +302,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000956.jpg?ver=21.88',
         name:'Mixed Zinger Doubles',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹348.57',
-        offerprice:'₹348.57',
+          price:348,
+        offerprice:348,
         discripation:'Best-seller combo of classic chicken zinger & tandoori zinger',
         category:'burgers'
     },
@@ -312,8 +312,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K146.jpg?ver=21.88',
         name:'Veg Zinger Burger',
         logo:'https://online.kfc.co.in/static/media/Veg_dot_Icon.d1a3902d.svg',
-        price:'₹179.05',
-        offerprice:'₹179.05',
+        price:179,
+        offerprice:179,
         discripation:'Signature veg burger with crispy patties, veggies & a tangy sauce',
         category:'burgers'
     },
@@ -323,8 +323,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K701.jpg?ver=21.88',
         name:'Chocolate Lava Cake',
         logo:'https://online.kfc.co.in/static/media/Veg_dot_Icon.d1a3902d.svg',
-        price:'₹108.57',
-        offerprice:'₹108.57',
+        price:108,
+        offerprice:108,
         discripation:'Soft Chocolate cake with a gooey center- perfect chocolaty end to every meal',
         category:'snacks'
     },
@@ -333,8 +333,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K701.jpg?ver=21.88',
         name:'Chocolate Lava Cake',
         logo:'https://online.kfc.co.in/static/media/Veg_dot_Icon.d1a3902d.svg',
-        price:'₹108.57',
-        offerprice:'₹108.57',
+        price:108,
+        offerprice:108,
         discripation:'Soft Chocolate cake with a gooey center- perfect chocolaty end to every meal',
         category:'snacks'
     },
@@ -343,8 +343,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000789.jpg?ver=21.88',
         name:'Chicken & Fries Bucket',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹299.05',
-        offerprice:'₹299.05',
+        price:299,
+        offerprice:299,
         discripation:'Crowd-favorite combo of 2pc Hot & Crispy chicken with Medium Fries',
         category:'snacks'
     },
@@ -353,8 +353,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K264.jpg?ver=21.88',
         name:'Mingles Bucket',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹339.05',
-        offerprice:'₹339.05',
+        price:339,
+        offerprice:339,
         serves: ' Serves 2',
         discripation:'Save 13% on this mingle of 4 Wings, 2 Strips & a Reg Popcorn',
         category:'snacks'
@@ -364,8 +364,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K223.jpg?ver=21.88',
         name:'Large Popcorn',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹228.57',
-        offerprice:'₹228.57',
+        price:228,
+        offerprice:228,
         serves: ' Serves 2',
         discripation:'Signature bite-sized boneless chicken, with special spices',
         category:'snacks'
@@ -375,8 +375,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K138.jpg?ver=21.88',
         name:'Large Fries',
         logo:'https://online.kfc.co.in/static/media/Veg_dot_Icon.d1a3902d.svg',
-        price:'₹119.05',
-        offerprice:'₹119.05',
+        price:119,
+        offerprice:119,
         serves: ' Serves 2',
         discripation:'Jazz up your meal with crispy large fries!',
         category:'snacks'
@@ -386,8 +386,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K496.jpg?ver=21.88',
         name:'Choco Mud Pie',
         logo:'https://online.kfc.co.in/static/media/Veg_dot_Icon.d1a3902d.svg',
-        price:'₹119.05',
-        offerprice:'₹119.05',
+        price:119,
+        offerprice:119,
         serves: ' Serves 2',
         discripation:'Chocolate lovers unite! Say hello to our creamy chocolate & cake dessert- a must try!',
         category:'snacks'
@@ -398,8 +398,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002166.jpg?ver=21.88',
         name:'Classic Biryani Combo',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹740.00',
-        offerprice:'₹740.00',
+        price:740,
+        offerprice:740,
         serves: ' Serves 2',
         discripation:'Large portions of Biryani rice with 2 pc Hot & Crispy, 2 Gravies, 4 Strips & Pepsi PET',
         category:'stay home special'
@@ -409,8 +409,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002000.jpg?ver=21.88',
         name:'Chickn Wings Combo',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹450.48',
-        offerprice:'₹450.48',
+        price:450,
+        offerprice:450,
         serves: ' Serves 2',
         discripation:'Enjoy 2pc Hot & Crispy Chicken, 4 wings , 2 dips & a chilled Pepsi Black',
         category:'stay home special'
@@ -420,8 +420,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002001.jpg?ver=21.88',
         name:'Classic Zinger Meal',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹344.76',
-        offerprice:'₹344.76',
+        price:344,
+        offerprice:344,
         serves: ' Serves 2',
         discripation:'Favorite combo of Classic Zinger Burger, Medium Fries & a chilled Pepsi Black',
         category:'stay home special'
@@ -431,8 +431,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002168.jpg?ver=21.88',
         name:'Super Snacker Combo',
         logo:'https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg',
-        price:'₹450.48',
-        offerprice:'₹450.48',
+        price:450,
+        offerprice:450,
         serves: ' Serves 2',
         discripation:'Favorite combo of Classic Zinger Burger, Medium Fries & a chilled Pepsi Black',
         category:'stay home special'
@@ -443,8 +443,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K350.jpg?ver=21.88',
         name:'Pepsi PET',
         logo:'https://online.kfc.co.in/static/media/Veg_dot_Icon.d1a3902d.svg',
-        price:'₹57.14',
-        offerprice:'₹57.14',
+        price:57,
+        offerprice:57,
         serves: '',
         discripation:'Pepsi PET',
         category:'beverages'
@@ -454,8 +454,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K485.jpg?ver=21.88',
         name:'Pepsi Can 330 ml',
         logo:'https://online.kfc.co.in/static/media/Veg_dot_Icon.d1a3902d.svg',
-        price:'₹57.14',
-        offerprice:'₹57.14',
+        price:57,
+        offerprice:57,
         serves: '',
         discripation:'Pepsi Can 330 ml',
         category:'beverages'
@@ -465,8 +465,8 @@ let  products =[
         Image:'https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K487.jpg?ver=21.88',
         name:'7UP Can 330 ml',
         logo:'https://online.kfc.co.in/static/media/Veg_dot_Icon.d1a3902d.svg',
-        price:'₹57.14',
-        offerprice:'₹57.14',
+        price:57,
+        offerprice:57,
         serves: '',
         discripation:'7UP Can 330 ml',
         category:'beverages'
@@ -474,6 +474,8 @@ let  products =[
 ];
 
 
+
+ let products2=JSON.parse(localStorage.getItem("products"))||[];
 
 let append= (data)=>{
 let cont = document.getElementById('ninja_product');
@@ -533,6 +535,8 @@ data.forEach((ele) =>{
         
     
 })
+
+
 }
 
 let chickenBucket= (data) =>{
@@ -546,10 +550,10 @@ let newData= data.filter((ele) =>{
  title.innerText = value;
 
 }
-chickenBucket(products)
+chickenBucket(products,products2)
 
 let envoke_bucket= () =>{
-chickenBucket(products);
+chickenBucket(products,products2);
 let value = document.getElementById('ninja_bucket').innerText;
 let title = document.getElementById('ninja_header');
 title.innerText = value;

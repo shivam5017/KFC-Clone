@@ -44,3 +44,8 @@
     text-align: center;
   }
   
+
+  #append_data{
+    border: 1px solid red;
+    height: 20px;
+  }

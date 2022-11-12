@@ -3,6 +3,7 @@
 let Product_Arr=JSON.parse(localStorage.getItem("products"))||[];
 let logindata=JSON.parse(localStorage.getItem("login_details"))||[];
 
+
 addProduct=()=>{
 console.log("click")
     event.preventDefault();
@@ -34,8 +35,8 @@ console.log("click")
 }
 
 
-document.getElementById("order_btn").addEventListener("click",ordermanage)
-document.getElementById("payment_btn").addEventListener("click",paymentmanage)
+// document.getElementById("order_btn").addEventListener("click",ordermanage)
+// document.getElementById("payment_btn").addEventListener("click",paymentmanage)
 
 
 let display=document.getElementById("display_name");
@@ -54,26 +55,66 @@ logout_btn.addEventListener("click",function (){
 
 
 // console.log(display.innerHTML)
-function ordermanage(){ 
 
-   console.log("click")
-  if(display.innerHTML=="" || display.innerHTML==undefined){
-     
-    alert("Please Login First")
-    // display.innerHTML="SIGN IN"
-  }else{
-    window.location.href="orders.html"
-  }
 
-}
 
-function paymentmanage(){
+let payed=JSON.parse(localStorage.getItem("payed"))||[]
+let buyer=JSON.parse(localStorage.getItem("buyer"))||[]
+let total=JSON.parse(localStorage.getItem("total_payment"))||[]
+let names=JSON.parse(localStorage.getItem("buyername"))||[];
 
-    if(display.innerHTML=="" || display.innerHTML==undefined){
-        alert("Please Login First")
-      }else{
-        window.location.href="payments.html"
+
+names.forEach((el)=>{
+
+    let row=document.createElement("tr")
+    
+    
+    let td1=document.createElement("td")
+      for(let i=0;i< buyer.length;i++){
+        
+        
+    
+        td1.innerHTML= buyer[0][0].name;
+        
       }
-   
-}
 
+      console.log(td1);
+     let td2=document.createElement("td");
+     td2.innerText=total;
+     let td3=document.createElement("td");
+     td3.innerText="Delete"
+     td3.style.cursor="pointer"
+     td3.addEventListener("click",deletetodo)
+    //  count++
+    //  document.querySelector("#total").innerText=count;
+     
+     
+     function deletetodo(event){
+         event.target.parentNode.remove()
+      
+         
+     }
+     
+     row.append(td1,td2,td3);
+     
+
+     document.getElementById("append_data").append(row)
+
+
+})
+
+   let count=0;
+   
+
+ count++
+
+ let cont=document.getElementById("append_data");
+  console.log(count)
+
+ let total_sales_span=document.getElementById("total_sales_span")
+
+ total_sales_span.innerHTML=total;
+
+ let total_orders_span=document.getElementById("total_orders_span")
+
+ total_orders_span.innerHTML= count;

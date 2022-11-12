@@ -55,7 +55,7 @@ let = s_login=()=>{
     if(flag==true){
       success.innerHTML="Successfull Login"
       success.style.color="green"
-     window.location.href="main.html"
+     window.location.href="index.html"
       
     }else if(flag1==true){
       window.location.href="admin.html"

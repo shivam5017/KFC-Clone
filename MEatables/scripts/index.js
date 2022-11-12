@@ -5,7 +5,7 @@ let foot = document.getElementById("RPfooter");
 foot.innerHTML = footer();
 let nav = document.getElementById("RPnavbar");
 nav.innerHTML = navbar();
-
+let logindata=JSON.parse(localStorage.getItem("login_details"))||[];
 let images = [
     "https://images.ctfassets.net/wtodlh47qxpt/4gztBB8yAvtp6jV7JAuLD/093fddbb77a78a44a4d3d5e066c592de/KFC_Peri_Peri_Banner__1440x396px.jpg?w=1536&fit=fill&fm=webp",
     "https://images.ctfassets.net/wtodlh47qxpt/500GRYvL6xfLzNRY68rr4u/c66030e22aa477594939c55281fc00fd/variety_bucket_banner_1440x396px.jpg?w=1536&fit=fill&fm=webp",
@@ -56,4 +56,12 @@ let RPsubmit_change =() =>{
   let newlocation = document.getElementById("RPnewlocation");
    newlocation.innerText = null;
   newlocation.innerText = data;
+}
+
+
+let display=document.getElementById("RPaus");
+display.innerHTML=logindata[0];
+
+if(display.innerHTML=="undefined"){
+    display.innerHTML="Signin"
 }
