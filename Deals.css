@@ -1,0 +1,26 @@
+#Deals{
+    width: 80%;
+    height: 60vh;
+    background-image: url("https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+};
+#Offers{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#gridPage{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+}
+#gridPage img{
+    width: 80%;
+}
+

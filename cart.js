@@ -221,7 +221,7 @@ let renderDOM = (Data) =>{
             let res = count+proprice;
             Price.innerText=res;
             console.log(count);
-        }
+        };
         let addbtn = document.createElement("img");
         addbtn.src="https://library.kissclipart.com/20190320/gq/kissclipart-portable-network-graphics-clip-art-circle-computer-702c4539d6a09799.png";
         addbtn.onclick=()=>{
@@ -229,7 +229,7 @@ let renderDOM = (Data) =>{
             counter.innerText=count;
             Price.innerText=count+price;
             console.log(count);
-        }
+        };
         imgdiv.append(Img,Addcartbtn);
         namediv.append(Name,btn);
         pricediv.append(minusbtn,counter,addbtn,price);
@@ -250,8 +250,8 @@ function addToCart(ele){
       if(cartData[i].id===ele.id){
         alert ("Prodct already exist in cart");
         return;
-      }
-    }
+      };
+    };
 
 
     cartData.push(ele)
