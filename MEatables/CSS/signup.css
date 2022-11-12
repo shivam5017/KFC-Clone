@@ -1,0 +1,203 @@
+body{
+    background-color:  whitesmoke;
+}
+
+.s_nav_div{
+    border: 1px solid white;
+    background-color: white;
+    margin-top: -10px;
+    text-align: center;
+    width: 100%;
+    border-bottom-color: gray;
+
+}
+
+
+#s_signup_form{
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 30%;
+    height: 45rem;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#form_text_1{
+    /* border: 1px solid red; */
+    width: 80%;
+    font-size: 15px;
+    margin-top: 30px;
+    padding-left: 40px;
+}
+#s_logo{
+   /* border: 1px solid red; */
+   padding-top: 40px;
+   padding-left: 40px;
+   font-size: 25px;
+}
+
+#s_firstname{
+    width: 70%;
+    margin-left:10%;
+    height: 30px;
+    border:1px solid white;
+    border-bottom-color: black;
+    margin-top: 40px;
+}
+
+#s_lastname{
+    width: 70%;
+    margin-left:10%;
+    height: 30px;
+    border:1px solid white;
+    border-bottom-color: black;
+    margin-top: 40px;
+}
+
+#s_email{
+    width: 70%;
+    margin-left:10%;
+    height: 30px;
+    border:1px solid white;
+    border-bottom-color: black;
+    margin-top: 40px;
+}
+
+#s_pass{
+    width: 70%;
+    margin-left: 10%;
+    height: 30px;
+    margin-top: 20px;
+    border:1px solid white;
+    border-bottom-color: black;
+    margin-top: 30px;
+}
+
+#s_signup_btn{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: white;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#form_text_2{
+    /* border: 1px solid red; */
+    padding-left: 35px;
+}
+#form_text_2 a{
+    color: black;
+}
+
+.err_pass{
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.err_email{
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.err_firstname{
+    margin-top: 10px;
+    margin-left: 45px;
+}
+#s_signup_btn{
+    cursor: pointer;
+}
+
+#s_signup_form img{
+    width: 60px;
+    padding-left: 20px;
+}
+
+@media(max-width:576px){
+
+    #s_signup_form{
+        padding: 0 80px;
+    }
+
+    #s_logo{
+        border: 1px solid red;
+        width: 200px;
+        margin-left: -40px;
+        font-size: 15px;
+        padding-left: 10px;
+        margin-top: -20px;
+    }
+
+    #s_firstname{
+        width: 100%;
+        margin-left: -25px;
+        padding-left: 50px;
+    }
+    #s_lastname{
+        width: 100%;
+        margin-left: -25px;
+        padding-left: 50px;
+    }
+
+    #s_email{
+        width: 100%;
+        margin-left: -25px;
+        padding-left: 50px;
+    }
+
+    #s_pass{
+        width: 100%;
+        margin-left: -30px;
+        padding-left: 50px;
+    }
+
+    
+#form_text_1{
+    /* border: 1px solid red; */
+     width: 200px;
+    margin-left: -80px;
+    font-size: 12px  
+}
+
+
+#s_signup_btn{
+    width: 14rem;
+    height: 30px;
+    border-radius: 5px;
+    border: white;
+    margin-top: 15px;
+    margin-left: -3rem;
+}
+
+#form_text_2{
+    border: 1px solid red;
+    /* padding-left: 30px; */
+    font-size: 14px;
+    margin-left: -50px;
+
+}
+
+
+.err_pass{
+    margin-top: 10px;
+    margin-left: -10px;
+    font-size: 13px;
+    width: 100%;
+}
+
+.err_firstname{
+    margin-top: 10px;
+    margin-left: -10px;
+    font-size: 13px;
+}
+.err_email{
+    margin-top: 10px;
+    margin-left: -10px;
+    font-size: 13px;
+}
+
+
+
+}

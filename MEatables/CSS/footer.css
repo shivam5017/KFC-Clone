@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  #RPfooter{
+      width: 100%;
+      height: auto;
+      background-color: #202124;
+  }
+  #RPfootertop{
+      width: 85%;
+      margin: auto;
+      display: flex;
+      margin-bottom: 20px;
+      
+  }
+  #RPfootertop1{
+      width: 40%;
+      color: white;
+      padding: 20px;
+      margin-top: 50px;
+     
+  }
+  #RPfootertop1 p{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 35px;
+      
+  }
+  #RPfootertop2{
+      width: 80%;
+      float: right;
+      font-size: 20px;
+      padding: 20px;
+      margin-top: 55px;
+  }
+  #RPfootertop2 a{
+      text-decoration: none;
+      float: right;
+      color: white;
+  }
+  #RPfootertop2 a p i{
+      color: white;
+  }
+  #RPfooterbottom{
+      width: 90%;
+      display: flex;
+      margin: auto;
+      margin-top: 50px;
+      padding-bottom: 50px;
+  }
+  #RPfooterbottom1{
+      width: 10%;
+      padding-left: 60px;
+      padding-top: 30px;
+  }
+  #RPfooterbottom1 img{
+      justify-content: center;
+      align-items: center;
+  }
+  .RPfooterbottom3{
+      width: 14%;
+      text-align: center;
+  }
+  .RPfooterbottom3 p{
+      color: white;
+      text-align: left;
+      font-size: medium;
+      padding-top: 10px;            
+  }
+  #RPfooterbottom6{
+      width: 12%;
+      display: flex;
+      padding-right: 25px;
+     
+  }
+  #RPfooterbottom6 i{
+      color: red;
+      padding-right: 5px;
+     
+  }
+  #RPfooterbottom6 a{
+      color: white;
+      font-size: medium;
+  }
+  #RPfooterbottom7{
+      width: 8%;
+      margin-left: 20px;
+  }
+  #RPfooterbottom8{
+      width: 8%;
+      margin-left: 60px;
+  }
+  #RPfootertmid{
+      width: 85%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 15px;
+  } 
+  .RPfooterimg {
+      width: 100%;
+      height: 400px;
+      background-color: white;
+      text-align: center; 
+      border-radius: 5px;
+  }
+  .RPfooterimg img{
+    width: 100%;
+    border-radius: 5px;
+  }
+  .RPptag{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: red;
+      font-size: 32px;
+  }
+  .RPptag2{
+      font-size: small;
+      padding: 5px;
+  }
+  .RPfooterimg a{
+      color: black;
+      padding: 10px;
+     
+  }
+  .RPfooterimg button{
+      padding: 5px 12px;
+      border: 1px solid black;
+      background-color: white;
+      font-size: larger;
+      border-radius: 15px;
+  }
+  #RPfooterlast p{
+      text-align: center;
+      color: white;
+      font-size: small;
+  }
+  #RPfooterlast{
+      padding-bottom: 12px;
+      display: flex;
+      justify-content: space-evenly;
+      padding-left: 300px;
+  }
+  #RPfaend i{
+      
+      color: white;
+      border: 1px solid white;
+      padding: 5px;
+      border-radius: 50%;
+  }

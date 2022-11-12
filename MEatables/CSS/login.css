@@ -1,0 +1,155 @@
+body{
+    background-color:  whitesmoke;
+    /* background-image: url("https://images.unsplash.com/photo-1632719967082-88f89a13e89a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8a2ZjfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.s_nav_div{
+    border: 1px solid white;
+    background-color: white;
+    margin-top: -10px;
+    text-align: center;
+    width: 100%;
+    border-bottom-color: gray;
+
+}
+
+#s_login_form{
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 35%;
+    height: 30rem;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#form_text_1{
+    /* border: 1px solid red; */
+    width: 80%;
+    font-size: 15px;
+    margin-top: 30px;
+    padding-left: 40px;
+}
+#s_logo{
+   /* border: 1px solid red; */
+   padding-top: 40px;
+   padding-left: 40px;
+   font-size: 25px;
+}
+
+#s_email{
+    width: 70%;
+    margin-left:10%;
+    height: 30px;
+    border:1px solid white;
+    border-bottom-color: black;
+    margin-top: 40px;
+}
+
+#s_pass{
+    width: 70%;
+    margin-left: 10%;
+    height: 30px;
+    margin-top: 20px;
+    border:1px solid white;
+    border-bottom-color: black;
+    margin-top: 30px;
+}
+
+#s_login_btn{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: white;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#form_text_2{
+    /* border: 1px solid red; */
+    padding-left: 35px;
+}
+#form_text_2 a{
+    color: black;
+}
+
+.err_pass{
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+#s_login_btn{
+    cursor: pointer;
+}
+#s_login_form img{
+    width: 60px;
+    padding-left: 20px;
+}
+
+/*     login for android      */
+
+
+@media(max-width:576px){
+
+    #s_login_form{
+        padding: 0 80px;
+    }
+
+    #s_logo{
+        margin-top: -50px;
+        width: 100%;
+        font-size: 20px;
+        padding-left: 10px;
+        margin-top: -20px;
+    }
+
+    #s_email{
+        width: 100%;
+        margin-left: -25px;
+        padding-left: 50px;
+    }
+
+    #s_pass{
+        width: 100%;
+        margin-left: -30px;
+        padding-left: 50px;
+    }
+
+    
+#form_text_1{
+    /* border: 1px solid red; */
+     width: 200px;
+    margin-left: -50px;
+    font-size: 12px  
+}
+
+
+#s_login_btn{
+    width: 15rem;
+    height: 30px;
+    
+    margin-top: 15px;
+    margin-left: -3rem;
+}
+
+#form_text_2{
+    border: 1px solid red;
+    /* padding-left: 30px; */
+    font-size: 14px;
+    margin-left: -50px;
+
+}
+
+
+.err_pass{
+    margin-top: 10px;
+    margin-left: -10px;
+    font-size: 13px;
+}
+
+
+
+}

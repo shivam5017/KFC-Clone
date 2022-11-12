@@ -1,0 +1,278 @@
+
+*{
+    padding: 0;
+    margin: 0;
+  font-family: sans-serif;
+}
+#RPhome{
+    background-color: #202124;
+    color: white;
+    height: 60px;
+    font-size: large;
+    margin-top: 100px;
+}
+#RPtop{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   padding-top: 14px;
+}
+#RPtop button{
+    background-color: #202124;
+    border: 1px solid white;
+    color: white;
+    padding: 7px 15px;
+    margin-left: 10px;
+    border-radius: 18px;
+}
+#RPtop p{
+   font-size: medium;
+}
+#RPtop i{
+    color: red;
+    padding: 0px 7px;    
+}
+#RPi {
+    width: 5%;
+    margin: auto;
+}
+#RPi img{
+    width: 80px;
+    height: 40px;
+}
+#RPp1{
+    width: 38%;
+    margin: auto;
+}
+#RPp1 p{
+    text-align: center;
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#RPp2{
+    width: 35%;
+    height: 50px;
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 35px;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+#RPpred{
+    width: 35%;
+    padding: 12px;
+    background-color: #e4002b;
+    border-radius: 35px;
+}
+#RPpred a{
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.RPdivc1{
+    width: 30%;
+    text-align: center;
+}
+.RPdivc1 a{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#RPslider1{
+    width: 100%;
+    height: 300px;
+    
+}
+
+#RPslider1 img{
+    width: 100%;
+}
+#RPbiloslider{
+    margin-top: 4.5rem;
+    width: 100%;
+    height: 130px;
+    background-color: #f8f7f5;
+    /* border: 5px solid red; */
+}
+#RPbiloslider img{
+    width: 80px;
+    height: 45px;
+    margin-left: 100px;
+}
+
+#RPwel p{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-left: 110px;
+   font-size: 40px; 
+}
+#RPmidindex{
+    width: 80%;
+    margin: auto;
+    padding-left: 100px;
+    margin-top: 100px;
+}
+
+
+#RPmidindextop{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#RPmidindextopc1{
+    width: 40%;
+    /* border: 2px solid red; */
+}
+#RPmidindextopc1 p{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 40px;
+   /* border: 2px solid red; */
+   width: 100%;
+}
+#RPmidindextopc2{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(111, 111, 111);
+}
+#RPmidindextopmid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.RPmidindextopmidgrid{
+    width: 100%;
+    height: auto;
+    background-color: #f8f7f5;
+    border-radius: 5px 5px 0px 0px;
+}
+.RPmidindextopmidgrid img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.RPmidindextopmidgrid a{
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    text-align: center;
+     
+}
+.RPmidindextopmidgrid a p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+#RPmidindextopmidgrid2{
+    width: 100%;
+    height: auto;
+    background-color: #f8f7f5;
+    border-radius: 5px 5px 0px 0px;
+   
+}
+#RPmidindextopmidgrid2 img{
+    width: 80%;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 25px;
+    padding-top: 35px;
+}
+#RPmidindextopmidgrid2 a{
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    text-align: center;
+}
+#RPmidindextopmidgrid2 a p{
+   font-family: sans-serif Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   padding-top: 55px;
+}
+.RP_popup{
+    position: fixed;
+    top: -150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 300px;
+    background: white;
+    font-family: "Raleway";
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;   
+}
+.RP_popup_overlay{
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.7);
+display: none;
+}
+.RP_popup_close_btn{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  background: #555;
+  padding: 10px;
+  border-radius: 10px;
+  color: #eee;
+  font-weight: 600;
+}
+body.RP_popup-active .RP_popup{
+top: 50%;
+}
+body.RP_popup-active .RP_popup h1{
+text-align: center;
+color: #202124;
+}
+body.RP_popup-active .RP_popup_overlay{
+display: block;
+}
+#RPxyz{
+width: 100%;
+height: 80%;
+padding: 20px;
+
+}
+#RPxyz label{
+font-size: 28px;
+font-weight: bold;
+padding: 5px;
+width: 30%;
+justify-content: center;
+align-items: center;
+
+}
+#RPxyz input{
+width: 60%;
+padding: 5px;
+border: none;
+border-bottom: 1px solid black;
+justify-content: center;
+align-items: center;
+}
+#RPshedule{
+color: red;
+}
+#RPsubmitbtn{
+ text-align: center;
+ border: 2px solid black;
+ padding: 5px 15px;
+ border-radius: 15px;
+ font-size: large;
+ margin: auto;
+ margin-top: 15px;
+ margin-left: 30%;
+
+
+}
+
