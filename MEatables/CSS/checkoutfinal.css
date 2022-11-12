@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://c0.wallpaperflare.com/preview/182/906/506/white-and-red-kfc-building.jpg");
+}
+
+
+#final_checkout{
+   
+    width: 50%;
+margin: auto;
+height: 12rem;
+margin-top: 10%;
+background-color: grey;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#order_placebtn{
+
+    width: 50%;
+    height: 2rem;
+    margin-left: 25%;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#name_edit{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: center;
+}
+
+#city_edit{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#payment_edit{
+border: 1px solid red;
+
+}

@@ -1,0 +1,184 @@
+body{
+  margin-top: -20px;
+  /* background-color:darkgray; */
+}
+
+#web_name{
+    text-align: center;
+}
+#display_name{
+    margin: auto;
+    margin-right: 50px;
+    color: white;
+}
+#logout{
+    margin-right: 5rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+#s_admin{
+    text-align: center;
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -7px;
+    margin-right: -7px;
+    
+    display: flex;
+}
+
+#s_admin_logout{
+    border: 1px solid red;
+    display: flex;
+}
+
+
+#s_admin img{
+    width: 100%;
+    max-height: 80px;
+    
+}
+
+#addProduct{
+    margin-top: -21px;
+    margin-left: -7px;
+    margin-right: -7px;
+    border: none;
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/124/52/871/kfc-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  grid-template-rows: 90px;
+  grid-gap: 10px;
+}
+
+
+#addProduct input{
+    width: 20rem;
+    margin: auto;
+   height: 50px;
+   border-radius: 10px;
+   background-color: ghostwhite;
+   font-style: italic;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 20px;
+}
+#addProduct select{
+    width: 20rem;
+    margin: auto;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+#s_btn{
+    border:  none;
+    font-size: 20px;
+    cursor: pointer;   
+
+}
+
+#admin_data{
+    display: flex;
+    gap: 40rem;
+    font-size: 30px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+#add_data{
+    text-align: center;
+    font-style: italic;
+}
+#manage_data{
+    text-align: center;
+    font-style: italic;
+}
+
+#s_admin_login{
+   font-size: 20px;
+}
+
+.manage_btn{
+    font-style: italic;
+}
+
+#order_btn{
+    width: 80px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    height: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    background-color: red;
+    font-size: 20px;
+}
+
+#payment_btn{
+    width: 10rem;
+   border: 1px solid grey;
+   border-radius: 10px;
+   height: 30px;
+   cursor: pointer;
+   margin-left: 20px;
+   background-color: red;
+   font-size: 20px;
+}
+
+
+  /* form {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 30%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 30px;
+  } */
+  
+  label {
+    font-size: 20px;
+  }
+  
+  table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  table td,
+  table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #8caacf;
+  }
+  
+  table tr:hover {
+    background-color: #ddd;
+  }
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0468aa;
+    color: white;
+    text-align: center;
+  }
+  
+
+  #append_data{
+    border: 0px solid red;
+    height: 20px;
+  }
