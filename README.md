@@ -1,5 +1,5 @@
 # quirky-taste-6442
-Construct Week Project
+An Ecommmerce website used to buy products of various diffrent types 
 
 Members 4
 
