@@ -1,5 +1,5 @@
 # quirky-taste-6442
-An Ecommmerce website used to buy products of various diffrent types 
+Food website 
 
 Members 4
 
