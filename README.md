@@ -26,3 +26,7 @@ Task:- Menu Page
 4:- Dattapatil
 
 Task:- Cart Page and Offer pages
+
+
+Landing Page:
+![image](https://user-images.githubusercontent.com/110033165/221638043-72a1ee20-f044-4a2c-853c-7d874c769734.png)
