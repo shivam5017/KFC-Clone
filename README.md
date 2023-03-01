@@ -1,7 +1,10 @@
 #KFC-Clone
-Food website 
+KFC is an American fast food restaurant chain headquartered in Louisville, Kentucky, that specializes in fried chicken.
 
-Members 4
+
+Netlify Link:- https://kfc-taste.netlify.app/
+
+Members => 4
 
 1:- Shivam malik
 2:- Rahul Pandey 
